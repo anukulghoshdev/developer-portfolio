@@ -6,15 +6,19 @@ body{
 h1{
     font-size: 50px;
 }
-p{
+h2{
+    font-size: 40px;
+}
+p{                        /*myself*/
     text-align: justify;
     text-justify: inter-word;
+    width: 700px;
 }
 
 .orange-color {
     color:sandybrown;
 }
-section{
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -28,7 +32,9 @@ section{
 .half-width img{
     width: 70%;
 }
-
+.img1 {        /*myself*/
+    margin-left: 110px;
+}
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -48,4 +54,30 @@ section{
     background-repeat: no-repeat; 
     background-position: right;
 }
+.experiences-area{
+    background-image: url('../img/exp-bg.png');
+    background-repeat: no-repeat; 
+    background-position: left;
+    background-size: 60px;
+  
+}
 
+.experiences-item{
+    width: 42%;
+    padding: 5px 1%;
+    margin: 0 4%; /*myself*/
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    
+    
+}
+#item1{
+    border-left: 10px solid rgb(255, 67, 120);
+}
+#item2{
+    border-left: 10px solid rgb(40, 147, 255);
+}
+footer p{
+    text-align: center;
+    margin-left:550px;
+}
