@@ -1,0 +1,40 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.orange-color {
+    color:sandybrown;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+    margin: 15px; /*myself*/
+    
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color:white;
+    font-weight: 500px;
+    border-radius: 5px;
+}
+.banner{
+    background: url('../img/bg.png');
+    background-repeat: no-repeat;
+
+    
+}
