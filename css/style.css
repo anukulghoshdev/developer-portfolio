@@ -32,9 +32,7 @@ p{                        /*myself*/
 .half-width img{
     width: 70%;
 }
-.img1 {        /*myself*/
-    margin-left: 110px;
-}
+
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -79,5 +77,6 @@ p{                        /*myself*/
 }
 footer p{
     text-align: center;
-    margin-left:550px;
+
+
 }
